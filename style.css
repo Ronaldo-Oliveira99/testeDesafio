@@ -1,0 +1,184 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+  font-family: "Poppins", sans-serif;
+}
+.container .header-logo {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1a486e;
+}
+.container .header-logo .logo {
+  padding: 15px;
+  height: 200px;
+  width: 300px;
+}
+.container .header-logo .titulo {
+  font-size: medium;
+  color: lightcoral;
+  padding: 70px 30px 0 0;
+  font-size: larger;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+.container .consult form {
+  width: 100%;
+  display: flex;
+  width: 100%;
+  padding: 10px;
+}
+.container .consult form .inFrase {
+  width: 50%;
+}
+.container .consult form .inFrase input {
+  width: 100%;
+}
+.container .consult form .delete {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.container .consult form .delete input {
+  background-color: white;
+  border: white;
+  color: #133959;
+  font-size: larger;
+}
+.container .table .tables .headtable {
+  background-color: #728baf;
+  color: white;
+}
+.container .table .tables tr {
+  display: flex;
+  justify-content: space-between;
+}
+.container .table .tables tr th,
+.container .table .tables tr td {
+  border: 0px solid;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container .header-logo {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .header-logo .logo {
+    margin: 0 auto;
+  }
+  .container .header-logo .titulo {
+    margin: 0 auto;
+    padding: 50px;
+  }
+  .container .consult .consultar {
+    flex-direction: column-reverse;
+    margin: 0 auto;
+  }
+  .container .consult .consultar .inFrase {
+    width: 100%;
+    margin: 20px auto;
+  }
+  .container .consult .consultar .delete {
+    margin: 0 auto;
+  }
+  .container .consult .consultar .delete input {
+    font-size: medium;
+    margin: 20px auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container .header-logo {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .header-logo .logo {
+    margin: 0 auto;
+  }
+  .container .header-logo .titulo {
+    margin: 0 auto;
+    padding: 50px;
+  }
+  .container .consult .consultar {
+    flex-direction: column-reverse;
+    margin: 0 auto;
+  }
+  .container .consult .consultar .inFrase {
+    width: 100%;
+    margin: 20px auto;
+  }
+  .container .consult .consultar .delete {
+    margin: 0 auto;
+  }
+  .container .consult .consultar .delete input {
+    font-size: medium;
+    margin: 20px auto;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .container .header-logo {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .header-logo .logo {
+    margin: 0 auto;
+  }
+  .container .header-logo .titulo {
+    margin: 0 auto;
+    padding: 50px;
+  }
+  .container .consult .consultar {
+    flex-direction: column-reverse;
+    margin: 0 auto;
+  }
+  .container .consult .consultar .inFrase {
+    width: 100%;
+    margin: 20px auto;
+  }
+  .container .consult .consultar .delete {
+    margin: 0 auto;
+  }
+  .container .consult .consultar .delete input {
+    font-size: medium;
+    margin: 20px auto;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .container .header-logo {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .header-logo .logo {
+    margin: 0 auto;
+  }
+  .container .header-logo .titulo {
+    margin: 0 auto;
+    padding: 50px;
+  }
+  .container .consult .consultar {
+    flex-direction: column-reverse;
+    margin: 0 auto;
+  }
+  .container .consult .consultar .inFrase {
+    width: 100%;
+    margin: 20px auto;
+  }
+  .container .consult .consultar .delete {
+    margin: 0 auto;
+  }
+  .container .consult .consultar .delete input {
+    font-size: medium;
+    margin: 20px auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

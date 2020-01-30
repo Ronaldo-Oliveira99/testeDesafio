@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Verificador de Palíndromo</title>
+</head>
+
+<body>
+    <header>
+        <section class="container">
+
+            <div class="header-logo">
+                
+                <img class="logo" src="https://www.leuvenmindgate.be/files/_logoDetail/Palindromo-Consulting_logo_transparent_background.png">
+                <h1 class="titulo">Verificador de Palíndromo</h1>
+                
+            </div>
+            
+            <div class="consult">
+               
+                <form class="consultar" name="consultar">
+
+                    <div class="inFrase">
+
+                        <input id="inFrase" data-test="entrada" type="text"  placeholder="Digite um Frase e pressione enter" autofocus >
+                   
+                    </div>
+
+                    <div class="delete">
+
+                        <input  id="deleteButton" data-test="limpar-dados" type="button"  value="Apagar Histórico" onclick="handleDeleteAll()" >
+
+                    </div>
+
+
+                </form>
+                
+            </div>
+        </section>
+            
+    </header>
+
+    <section class="container">
+       
+        <table class="table table-striped" id="table">
+           
+ 
+            
+                <thead class="tables">
+                    <tr class="headtable">
+    
+                        <th>Frase</th>
+                        <th>Palíndromo</th>
+    
+                    </tr>
+                </thead>
+
+                <tbody class="tables"> 
+                        
+                </tbody>
+        
+            
+        </table>
+    </section>
+<script src="assets/js/index.js"></script>
+</body>
